@@ -1,0 +1,291 @@
+#testing {
+    display: flex;
+    padding: 70px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+}
+
+#mockups {
+    width: 100%;
+}
+
+#sect2 {
+    width: 100%;
+}
+
+#but1 {
+    background-color: white;
+    border: blanchedalmond;
+    border-radius: 30px;
+    width: 120px;
+    height: 45px;
+    font-weight: 700;
+    box-shadow: 0px 5px 15px hsl(180, 1%, 82%);
+}
+
+#but1:hover {
+    color: hsl(208, 11%, 55%);
+}
+
+#first {
+    background-image: url("/images/bg-hero-desktop.svg");
+    background-color: rgb(245, 250, 252);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+
+#heading1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#para1 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#sect1 {
+    width: 60%;
+}
+
+#but2 {
+    background-color:  hsl(322, 100%, 66%);
+    border:  hsl(322, 100%, 66%);
+    border-radius: 30px;
+    width: 300px;
+    height: 45px;
+    font-weight: 700;
+    color: white;
+}
+
+#but2:hover {
+    background-color: hsl(322, 90%, 73%);
+}
+
+#second {
+    display: flex;
+    padding: 70px;
+    margin: 100px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:0px 5px 15px hsl(180, 1%, 82%);
+}
+
+#grow {
+    height: 500px;
+}
+
+#heading2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#para2 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#sect3 {
+    width: 60%;
+}
+
+#sect4 {
+    width: 80%;
+}
+
+#third {
+    display: flex;
+    padding: 70px;
+    margin: 100px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px hsl(180, 1%, 82%);
+}
+
+#flow {
+    height: 500px;
+    width: 90%;
+}
+
+#sect6 {
+    width: 45%;
+}
+
+#sect5 {
+    width: 60%
+}
+
+#heading3 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#para3 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#fourth {
+    display: flex;
+    padding: 70px;
+    margin: 100px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px hsl(180, 1%, 82%);
+}
+
+#users {
+height: 500px;
+}
+
+#sect7 {
+    width: 58%;
+}
+
+#sect8 {
+    width: 80%;
+}
+
+#heading4 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#para4 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#fifth {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 170px;
+    margin-bottom: -70px;
+    height: 220px;
+    width: 700px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px -1px 8px hsl(180, 1%, 82%);
+    position: relative;
+    z-index: 2;
+}
+
+#para5 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#but3 {
+    background-color:  hsl(322, 100%, 66%);
+    border:  hsl(322, 100%, 66%);
+    border-radius: 30px;
+    width: 350px;
+    height: 70px;
+    font-weight: 700;
+    color: white;
+    box-shadow: 0px 5px 15px hsl(0, 0%, 73%);
+}
+
+#but3:hover {
+    background-color: hsl(322, 90%, 73%);
+}
+
+/*footer starts here; part I most struggled with*/
+
+#last {
+    background-color: rgb(16, 17, 17);
+    height: 400px;
+    position: relative;
+    z-index: 1;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+#div1 {
+width: 20%;
+}
+
+#div2 { 
+    padding-left: 300px;
+    padding-top: 130px;
+    width: 100px;
+}
+
+#div3 {
+   padding-left: 200px;
+   padding-top: 130px;
+}
+
+#div4{
+    padding-left: 200px;
+    padding-top: 130px;
+}
+
+#logo {
+    width: 300px;
+    height: 100px;
+}
+
+
+.boticon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.botpara {
+    display: inline-block;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.icon-wrap {
+    display: inline-block;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-wrap:hover {
+    color: hsl(322, 90%, 73%);
+}
+
+#div5 {
+    padding-left: 200px;
+    padding-top: 250px;
+}
